@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int i,n,sum=0;
+    int n,i,fact=1;
     printf("enter the number:");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
-        sum=sum+i;
-    }
-    printf("the sum of %d number is %d",n,sum);
+    fact=fact*i;
+}
+    printf("factorial of number %d is %d",n,fact);
     return 0;
 }
